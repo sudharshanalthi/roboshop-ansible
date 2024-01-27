@@ -70,7 +70,7 @@
   #     msg: "product count: {{product_count}}"
 
   - name: load catalogue data
-    ansible.builtin.command: mongo --host mongodb.daws76s.online < /app/schema/catalogue.js
+    ansible.builtin.command: mongo --host daws76.website < /app/schema/catalogue.js
     when: product_count.stdout == "0" # keep double quotes
 
   - name: start and enable catalogue
@@ -78,3 +78,4 @@
       name: catalogue
       state: restarted
       enabled: yes
+      
