@@ -1,8 +1,9 @@
 [mongodb]
-172.31.39.70
+mongodb.daws76.website
 [catalogue]
-catalogue.daws76.com
+catalogue.daws76.website
 [user]
-user.daws76.com
+user.daws76.website
 [cart]
-cart.daws76.com
+cart.daws76.website
+
