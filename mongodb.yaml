@@ -1,5 +1,5 @@
 - name: mongodb
-  hosts: mongodb
+  hosts: 172.31.39.70
   become: yes
   tasks:
   - name: Copy mongodb repo
