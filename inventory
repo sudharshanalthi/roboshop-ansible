@@ -6,4 +6,16 @@ catalogue.daws76.website
 user.daws76.website
 [cart]
 cart.daws76.website
+[web]
+web.daws76.website
+[redis]
+redis.daws76.website
+[mysql]
+mysql.daws76.website
+[shipping]
+shipping.daws76.website
+[rabbitmq]
+rabbitmq.daws76.website
+[payment]
+payment.daws76.website
 
